@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header__upper">
+            <div class="header__upper__item">
+                <img src="components/Group.svg" alt="">
+                <p>Россия, Москва, 38КМ МКАД, 6Бс1
+                </p>
+            </div>
+            <div class="header__upper__item">
+                <img src="components/Group 3328.svg" alt="">
+                <p>Время работы: c 08:00 до 21:00</p>
+            </div>
+            <div class="header__upper__item">
+                <img src="components/Vector.svg" alt="" id="flex__img">
+                <p onmouseover="ImageChange()" onmouseleave="ImageReset()">Whatsapp</p>
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="header__middle__intro">
+                <div class="header__middle__list">
+                    <img src="components/spisok.svg" alt="">
+                </div>
+                <div class="header__middle__logo">
+                    <img src="components/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="header__middle__line"></div>
+            <div class="header__middle__expressions">
+                <p><span>10 лет</span> превосходим ваши ожидания</p>
+            </div>
+            <div class="header__nav__bar">
+                <ul>
+                    <li><a href="#">Подбор авто</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Техцентр</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="haeder__middle__call">
+                <div class="first__call__line">
+                    <img src="components/call.svg" alt="">
+                <p>+7 (800) 551-94-31</p>
+                </div>
+                <div class="second__call__line">
+                    <p>+7 (495) 292-18-67</p>
+                </div>
+            </div>
+            <div class="header__middle__button">
+                <button><a href="#">Обратный звонок</a></button>
+            </div>
+        </div>
+        <div class="header__last">
+            <div class="header__last__nav">
+                <div class="last__nav__item">
+                    <a href="">Каталог авто</a>
+                    <img src="components/arrow-down.svg" alt="">
+                </div>
+                <div class="last__nav__item">
+                    <a href="">Авто с пробегом</a>
+                    <img src="components/arrow-down.svg" alt="">
+                </div>
+                <div class="last__nav__item">
+                    <a href="">Кредит и рассрочка</a>
+                    <img src="components/arrow-down.svg" alt="">
+                </div>
+                <div class="last__nav__item">
+                    <a href="">Спецпредложения</a>
+                    <img src="components/arrow-down.svg" alt="">
+                </div>
+                <div class="last__nav__item">
+                    <a href="">Такси в кредит</a>
+                </div>
+            </div>
+            <div class="header__last__img">
+                <div class="last__item__img">
+                    <img src="components/heart.svg" alt="">
+                </div>
+                <div class="last__item__img">
+                    <img src="components/stat.svg" alt="">
+                </div>
+                <div class="last__item__img">
+                    <img src="components/search.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="Sales">
+        <div class="sales__container">
+            <div class="sales__image">
+                <div class="bg__image">
+                    <img src="/main/bg.svg" alt="">
+                </div>
+                <div class="cars__image">
+                    <img src="/main/rio.svg" class="rio__abs" alt="">
+                    <img src="/main/toyota.svg" class="toyota__abs" alt="">
+                    <img src="/main/rapid.svg" class="rapid__abs" alt="">
+                </div>
+            </div>
+            <div class="sales__content">
+                <div class="sales__title">
+                    <p>Осталось всего 10 авто!</p>
+                </div>
+                <div class="sales__text">
+                    <p>Грандиозная распродажа тестового парка!</p>
+                </div>
+                <div class="sales__desc">
+                    <p>Узнай свою цену!</p>
+                </div>
+                <div class="sales__list">
+                    <div class="sales__list__item"></div>
+                    <div class="sales__list__item"></div>
+                    <div class="sales__list__item"></div>
+                    <div class="sales__list__item"></div>
+                    <div class="sales__list__item"></div>
+                    <div class="sales__list__item"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Filters">
+<div class="filters__container">
+    <div class="filters__left__side">
+        <div class="filters__first__column">
+            <div class="filters__item" id="kia">
+                <img src="/filters/kia.svg" alt="">
+                <p>Kia</p>
+            </div>
+            <div class="filters__item" id="brilliance">
+                <img src="/filters/brilliance.svg" alt="">
+                <p>Brilliance</p>
+            </div>
+            <div class="filters__item" id="citroen">
+                <img src="/filters/citroen.svg" alt="">
+                <p>Citroen</p>
+            </div>
+            <div class="filters__item" id="ford">
+                <img src="/filters/ford.svg" alt="">
+                <p>Ford</p>
+            </div>
+            <div class="filters__item" id="haima">
+                <img src="/filters/haima.svg" alt="">
+                <p>Haima</p>
+            </div>
+            <div class="filters__item" id="lifan">
+                <img src="/filters/lifan.svg" alt="">
+                <p>Lifan</p>
+            </div>
+            <div class="filters__item" id="peugeot">
+                <img src="/filters/peugeot.svg" alt="">
+                <p>Peugeot</p>
+            </div>
+            <div class="filters__item" id="uaz">
+                <img src="/filters/uaz.svg" alt="">
+                <p>Uaz</p>
+            </div>
+        </div>
+        <div class="filters__second__column">
+            <div class="filters__item" id="hyundai">
+                <img src="/filters/hyundai.svg" alt="">
+                <p>Hyundai</p>
+            </div>
+            <div class="filters__item" id="changan">
+                <img src="/filters/changan.svg" alt="">
+                <p>Changan</p>
+            </div>
+            <div class="filters__item" id="datsun">
+                <img src="/filters/datsun.svg" alt="">
+                <p>Datsun</p>
+            </div>
+            <div class="filters__item" id="foton">
+                <img src="/filters/foton.svg" alt="">
+                <p>Foton</p>
+            </div>
+            <div class="filters__item" id="haval">
+                <img src="/filters/haval.svg" alt="">
+                <p>Haval</p>
+            </div>
+            <div class="filters__item" id="mazda">
+                <img src="/filters/mazda.svg" alt="">
+                <p>Mazda</p>
+            </div>
+            <div class="filters__item" id="ravon">
+                <img src="/filters/ravon.svg" alt="">
+                <p>Ravon</p>
+            </div>
+            <div class="filters__item" id="zotye">
+                <img src="/filters/zotye.svg" alt="">
+                <p>Zotye</p>
+            </div>
+        </div>
+        <div class="filters__third__column">
+            <div class="filters__item"  id="skoda">
+                <img src="/filters/skoda.svg" alt="">
+                <p>Skoda</p>
+            </div>
+            <div class="filters__item" id="chery">
+                <img src="/filters/chery.svg" alt="" >
+                <p>Chery</p>
+            </div>
+            <div class="filters__item" id="dongfeng">
+                <img src="/filters/dongfeng.svg" alt="">
+                <p>Dongfeng</p>
+            </div>
+            <div class="filters__item" id="gac">
+                <img src="/filters/gac.svg" alt="">
+                <p>Gac</p>
+            </div>
+            <div class="filters__item" id="honda">
+                <img src="/filters/honda.svg" alt="">
+                <p>Honda</p>
+            </div>
+            <div class="filters__item" id="mitsubishi">
+                <img src="/filters/mitshub.svg" alt="">
+                <p>Mitsubishi</p>
+            </div>
+            <div class="filters__item" id="renault">
+                <img src="/filters/renault.svg" alt="">
+                <p>Renault</p>
+            </div>
+        </div>
+        <div class="filters__fourth__column">
+            <div class="filters__item" id="volkswagen">
+                <img src="/filters/volkswagen.svg" alt="">
+                <p>Volkswagen</p>
+            </div>
+            <div class="filters__item" id="chereexeed">
+                <img src="/filters/cheryexeed.svg" alt="">
+                <p>CheryExeed</p>
+            </div>
+            <div class="filters__item" id="dw">
+                <img src="/filters/dw.svg" alt="">
+                <p>DW Hower</p>
+            </div>
+            <div class="filters__item" id="geely">
+                <img src="/filters/geely.svg" alt="">
+                <p>Geely</p>
+            </div>
+            <div class="filters__item" id="jac">
+                <img src="/filters/jac.svg" alt="">
+                <p>Jac</p>
+            </div>
+            <div class="filters__item" id="nissan">
+                <img src="/filters/nissan.svg" alt="">
+                <p>Nissan</p>
+            </div>
+            <div class="filters__item" id="ssang">
+                <img src="/filters/ssang.svg" alt="">
+                <p>SsangYoung</p>
+            </div>
+        </div>
+        <div class="filters__fifth__column">
+            <div class="filters__item" id="toyota">
+                <img src="/filters/toyota.svg" alt="">
+                <p>Toyota</p>
+            </div>
+            <div class="filters__item" id="chevrolet">
+                <img src="/filters/chevrolet.svg" alt="">
+                <p>Chevrolet</p>
+            </div>
+            <div class="filters__item" id="faw">
+                <img src="/filters/faw.svg" alt="">
+                <p>FAW</p>
+            </div>
+            <div class="filters__item" id="great_wall">
+                <img src="/filters/great wall.svg" alt="">
+                <p>Great Wall</p>
+            </div>
+            <div class="filters__item" id="lada">
+                <img src="/filters/lada.svg" alt="">
+                <p>Lada</p>
+            </div>
+            <div class="filters__item" id="opel">
+                <img src="/filters/opel.svg" alt="">
+                <p>Opel</p>
+            </div>
+            <div class="filters__item" id="suzuki">
+                <img src="/filters/suzuki.svg" alt="">
+                <p>Suzuki</p>
+            </div>
+        </div>
+    </div>
+    <div class="filters__right__side">
+        <div class="right__side__title">
+            <p>Быстрый подбор авто</p>
+        </div>
+        <div class="right__side__info">
+            <p>Цена</p>
+            <p>0 - 500т</p>
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          </div>
+          <div class="under__slider__price">
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>0</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>500т</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>800т</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>1,1м</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>1,4м</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>1,7м</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>2м</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>2,3м</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>2,7м</p>
+            </div>
+            <div class="under__slider__item">
+                <div class="under__slider__vertical"></div>
+                <p>3м</p>
+            </div>
+          </div>
+          <div class="right__side__options">
+            <form action="">
+                <select id="cars" name="cars">
+                    <option value="volvo">Тип кузова</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                  </select>
+              </form>
+              <form action="">
+                <select id="cars" name="cars">
+                    <option value="volvo">Коробка</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                  </select>
+              </form>
+          </div>
+          <div class="right__side__button">
+                <button><a href="#">Показать 73</a></button>
+          </div>
+    </div>
+</div>
+    </div>
+        <div class="Cars">
+            <div class="cars__title">
+                <p>Автомобили в наличии с ПТС</p>
+            </div>
+            <div class="cars__list">
+                <div class="cars__content">
+                    <div class="cars__first__column">
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cars__second__column">
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cars__third__column">
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                        <div class="cars__item">
+                            <img src="/cars/car.svg" alt="" class="skoda__abs">
+                            <img src="/cars/bg.svg" alt="" class="bg__abs">
+                            <div class="cars__header">
+                                <div class="cars__name">
+                                    <p>Skoda Octavia 1.6 MPI MT Active </p>
+                                </div>
+                                <div class="cars__images">
+                                    <img src="/cars/Vector 348.svg" alt="">
+                                    <img src="/cars/Vector.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="cars__offer">
+                                <div class="cars__red__offer">
+                                    <p>Предложение дня</p>
+                                </div>
+                                <div class="cars__text">
+                                    <p>Выгода до 300 000 ₽</p>
+                                </div>
+                            </div>
+                            <div class="cars__gift">
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Оборудование <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>КАСКО <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                                <div class="cars__gift__item">
+                                    <div class="cars__gift__img">
+                                        <img src="/cars/gift.svg" alt="">
+                                    </div>
+                                    <div class="cars__gift__text">
+                                        <p>Комплект резины <br><span>в подарок</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__price">
+                                <div class="cars__total__price">
+                                    <p>от 1 615 000 ₽ </p>
+                                </div>
+                                <div class="cars__credit">
+                                    <p>Кредит <span>от 115 000 ₽/мес.</span> </p>
+                                </div>
+                            </div>
+                            <div class="cars__stat">
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/motor.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>115 л.с.</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/benz.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>5.3 л/км</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/skorost.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>189 км/ч</p>
+                                    </div>
+                                </div>
+                                <div class="cars__stat__item">
+                                    <div class="cars__stat__image">
+                                        <img src="/cars/vremya.svg" alt="">
+                                    </div>
+                                    <div class="cars__stat_numb">
+                                        <p>10,3 c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cars__button">
+                                <button id="redBtn"><a href="#">Резерв онлайн</a></button>
+                                <button id="blackBtn"><a href="#">Купить</a></button>
+                                <button id="grayBtn"><a href="#">Подробнее</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cars__last__button">
+                    <button>ПОКАЗАТЬ ЕЩЕ</button>
+                </div>
+            </div>
+        </div>
+        <div class="features">
+            <div class="features__title">
+                <div class="features__text">
+                    <p>Наши подборки</p>
+                    <span>Все подборки</span>
+                </div>
+                <div class="features__arrows">
+                    <div class="features__left__arrow">
+                        <img src="/features/left-arrow.svg" alt="">
+                    </div>
+                    <div class="features__right__arrow">
+                        <img src="/features/right-arrow.svg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="features__list">
+                    <div class="features__list__item features__first__item">
+                        <div class="features__list__info">
+                            <p>Семейные автомобили</p>
+                            <span>Посмотреть</span>
+                        </div>
+                    </div>
+                    <div class="features__list__item features__second__item">
+                        <div class="features__list__info">
+                            <p>Автомобили для путешествий</p>
+                            <span>Посмотреть</span>
+                        </div>
+                    </div>
+                    <div class="features__list__item features__third__item">
+                        <div class="features__list__info">
+                            <p>Городские автомобили</p>
+                            <span>Посмотреть</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="phone">
+                <div class="phone__box">
+                    <div class="phone__left__side">
+                        <img src="/phone/kulak.svg" alt="">
+                    </div>
+                    <div class="phone__right__side">
+                        <div class="phone__header">
+                            <div class="phone__title">
+                                <p>Перебьем предложения от конкурентов!</p>
+                            </div>
+                            <div class="phone__text">
+                                <p>Скидки <span>от 10 до 25%</span> на стоимость автомобиля </p>
+                            </div>
+                        </div>
+                        <div class="phone__form">
+                            <form action="">
+                                <input type="text" placeholder="Ваш телефон">
+                            </form>
+                            <button>Получить предложение</button>
+                        </div>
+                        <div class="phone__footer">
+                            <p>Нажимая кнопку “Отправить” Вы даете согласие на обработку своих персональных данных</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SpecialOffer">
+                <div class="special__title">
+                    <p>Спецпредложения</p>
+                </div>
+                <div class="special__offer__boxes">
+                    <div class="special__offer__item special__first__item">
+                            <div class="special__offer__title">
+                                <p>Первый автомобиль</p>
+                                <span>1,9% по льготной ставке</span>
+                            </div>
+                        <div class="special__offer_btn">
+                            <button>Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="special__offer__item special__second__item">
+                            <div class="special__offer__title">
+                                <p>Семейный автомобиль</p>
+                                <span>1,9% по льготной ставке</span>
+                            </div>
+                        <div class="special__offer_btn">
+                            <button>Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="special__offer__item special__third__item">
+                            <div class="special__offer__title">
+                                <p>Экспресс-кредит</p>
+                                <span>1,9% по льготной ставке</span>
+                            </div>
+                        <div class="special__offer_btn">
+                            <button>Узнать больше</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
